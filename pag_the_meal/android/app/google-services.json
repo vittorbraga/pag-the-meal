@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493835283779",
+    "firebase_url": "https://pag-the-meal-1505a.firebaseio.com",
+    "project_id": "pag-the-meal-1505a",
+    "storage_bucket": "pag-the-meal-1505a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493835283779:android:9f059ef6a00367822993f6",
+        "android_client_info": {
+          "package_name": "br.com.sourcedigital.pag_the_meal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493835283779-7ocj705jvn2s1bnct0mj8scobcnn3mtt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.sourcedigital.pag_the_meal",
+            "certificate_hash": "e489ab38ad34889cdc0d08e7c61374a27901a35d"
+          }
+        },
+        {
+          "client_id": "493835283779-f7vmf4mh9s8qevbl6ckbm69vt0drtnuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYv39UcLpHjkrxXV9IjeMiL15HJSMYAak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493835283779-f7vmf4mh9s8qevbl6ckbm69vt0drtnuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
