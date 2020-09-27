@@ -10,13 +10,19 @@ class ProductWidget extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 80.0,
+          width: 130.0,
           child: Card(
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8.0))),
             child: Image.network(_product.strMealThumb),
           )
         ),
-        Text(_product.strMeal)
+        Text(
+          _product.strMeal,
+          style: TextStyle(
+            fontSize: 16.0,
+            color: Colors.grey[700]
+          )
+        )
       ]
     );
   }

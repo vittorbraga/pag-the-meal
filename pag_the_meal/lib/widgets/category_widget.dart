@@ -15,7 +15,13 @@ class CategoryWidget extends StatelessWidget {
             child: Image.network(_category.strCategoryThumb),
           )
         ),
-        Text(_category.strCategory)
+        Text(
+          _category.strCategory,
+          style: TextStyle(
+            fontSize: 16.0,
+            color: Colors.grey[700]
+          )
+        )
       ]
     );
   }
