@@ -30,6 +30,7 @@ dependencies:
   firebase_auth: ^0.18.0+1
   google_sign_in: ^4.5.4
   provider: ^4.3.2+2
+  lottie: ^0.6.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -53,7 +54,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/food-carousel.json
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
